@@ -2,3 +2,4 @@ modules/Network/*.tf filter=lfs diff=lfs merge=lfs -text
 modules/IAM/*.tf filter=lfs diff=lfs merge=lfs -text
 modules/EKS/*.tf filter=lfs diff=lfs merge=lfs -text
 modules/nodegroup/*.tf filter=lfs diff=lfs merge=lfs -text
+modules/* filter=lfs diff=lfs merge=lfs -text
